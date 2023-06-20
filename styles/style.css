@@ -15,12 +15,25 @@ body {
 
 }
 
+.cabecalho h1 {
+    color:rgb(138, 7, 7);
+    font-size:60px;
+    font-family: 'Satisfy', 'Comic Sans', sans-serif;
+}
+
+.cabecalho h2 {
+    color: rgb(35, 35, 172);
+    font-family: 'Satisfy', 'Comic Sans', sans-serif;
+    font-size: 40px;
+}
+
 .menu {
     display: block;
     text-align: center;
     background-color: rgb(138, 7, 7);
     height: auto;
     padding: 2px 0 1px 0;
+    border: solid 4px rgb(35, 35, 172);
 }
 
 .baianas {
@@ -48,13 +61,13 @@ body {
 
 .fotos-menu img:hover {
     padding: 0;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 1px 1px 4px 8px rgb(243, 215, 124);
     transition: 0.3s;
     
 }
 
 .fotos-menu figcaption {
-    font-weight: bolder;
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(243, 215, 124);
+    font-family: 'Satisfy', 'Comic Sans', sans-serif;
 }
