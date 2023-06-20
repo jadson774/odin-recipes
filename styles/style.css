@@ -6,6 +6,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background-color: rgb(243, 215, 124)
+}
+
 h1, h2 {
    text-align: center;
 
@@ -16,25 +20,33 @@ h1, h2 {
     text-align: center;
     background-color: rgb(138, 7, 7);
     height: auto;
+    padding: 2px 0 1px 0;
 }
 
-.menu .receitas li {
-    list-style: none;
-    display: inline;
-    margin: 60px;
-    border: solid;
-    
-}
 .baianas {
     text-align: center;
     display: block;
     margin: auto;
 }
 
-.fotos-menu img {
+.fotos-menu {
     display: inline-block;
+}
+.fotos-menu img {
+    display: inline;
     width: 236px;
     height: 156px;
-    margin: 0 20px;
+    padding: 10px;
+    border-radius: 15%;
+    outline-color:rgb(243, 215, 124);
+    outline-style: outset;
+    margin: 10px;
+    
 }
 
+.fotos-menu img:hover {
+    padding: 0;
+    box-shadow: 10px 10px 5px black;
+    transition: 0.3s;
+    
+}
