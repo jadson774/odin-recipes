@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+} 
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, h2 {
+   text-align: center;
+
+}
+
+.menu {
+    display: block;
+    text-align: center;
+    background-color: rgb(138, 7, 7);
+    height: auto;
+}
+
+.menu .receitas li {
+    list-style: none;
+    display: inline;
+    margin: 60px;
+    border: solid;
+    
+}
+.baianas {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.fotos-menu img {
+    display: inline-block;
+    width: 236px;
+    height: 156px;
+    margin: 0 20px;
+}
+
