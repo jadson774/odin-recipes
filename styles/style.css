@@ -10,7 +10,7 @@ body {
     background-color: rgb(243, 215, 124)
 }
 
-h1, h2 {
+.cabecalho {
    text-align: center;
 
 }
