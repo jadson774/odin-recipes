@@ -50,3 +50,9 @@ h1, h2 {
     transition: 0.3s;
     
 }
+
+.fotos-menu figcaption {
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(243, 215, 124);
+}
