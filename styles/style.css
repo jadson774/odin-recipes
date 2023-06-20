@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    background-color: rgb(243, 215, 124)
+    background: linear-gradient(to bottom, rgb(138, 7, 7), rgb(30, 30, 138));
+    
 }
 
 .cabecalho {
@@ -16,32 +17,37 @@ body {
 }
 
 .cabecalho h1 {
-    color:rgb(138, 7, 7);
+    color:white;
     font-size:60px;
     font-family: 'Satisfy', 'Comic Sans', sans-serif;
+    font-weight:lighter;
 }
 
 .cabecalho h2 {
-    color: rgb(35, 35, 172);
+    color: white;
     font-family: 'Satisfy', 'Comic Sans', sans-serif;
     font-size: 40px;
+    font-weight:lighter;
 }
 
 .menu {
     display: block;
     text-align: center;
-    background-color: rgb(138, 7, 7);
     height: auto;
     padding: 2px 0 1px 0;
-    border: solid 4px rgb(35, 35, 172);
 }
 
-.baianas {
+.bandeira img {
     text-align: center;
     margin: auto;
-    display: block;
-    width: 400px;
-    height: auto;
+    width: 250px;
+}
+
+.bandeira img:hover {
+    box-shadow: 1px 1px 4px 8px white;
+    transition: 0.3s;
+    border-radius: 15%;
+    padding: 0;
 }
 
 .fotos-menu {
@@ -53,7 +59,7 @@ body {
     height: 156px;
     padding: 10px;
     border-radius: 15%;
-    outline-color:rgb(243, 215, 124);
+    outline-color:white;
     outline-style: outset;
     margin: 10px;
     
@@ -61,13 +67,32 @@ body {
 
 .fotos-menu img:hover {
     padding: 0;
-    box-shadow: 1px 1px 4px 8px rgb(243, 215, 124);
+    box-shadow: 1px 1px 4px 8px white;
     transition: 0.3s;
     
 }
 
 .fotos-menu figcaption {
     font-size: 30px;
-    color: rgb(243, 215, 124);
+    color: white;
     font-family: 'Satisfy', 'Comic Sans', sans-serif;
 }
+
+
+.creditos p {
+    font-family: 'Satisfy', 'Comic Sans', sans-serif;
+    font-size: 18px;
+    color:white;
+}
+
+footer, .the-odin-project-logo img {
+    display: block;
+    text-align: center;
+}
+
+.the-odin-project-logo img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+
