@@ -7,8 +7,7 @@ html {
 }
 
 body {
-    background: linear-gradient(to bottom, rgb(138, 7, 7), rgb(30, 30, 138));
-    
+    background: linear-gradient(to bottom, rgb(138, 7, 7), rgb(30, 30, 138)); 
 }
 
 .cabecalho {
@@ -41,12 +40,15 @@ body {
     text-align: center;
     margin: auto;
     width: 250px;
+    height: auto;
 }
 
 .bandeira img:hover {
-    box-shadow: 1px 1px 4px 8px white;
+    width: 300px;
+    height: auto;
+    box-shadow: 1px 1px 20px 2px white;
+    border-radius: 5%;
     transition: 0.3s;
-    border-radius: 15%;
     padding: 0;
 }
 
@@ -83,9 +85,10 @@ body {
     font-family: 'Satisfy', 'Comic Sans', sans-serif;
     font-size: 18px;
     color:white;
+    margin-top: 50px;
 }
 
-footer, .the-odin-project-logo img {
+footer {
     display: block;
     text-align: center;
 }
@@ -94,5 +97,13 @@ footer, .the-odin-project-logo img {
     width: 300px;
     height: auto;
     margin: auto;
+    display: block;
+    text-align: center;
+}
+.the-odin-project-logo img:hover {
+    box-shadow: 1px 1px 20px 2px white;
+    transition: 0.3s;
+    border-radius: 5%;
+    width: 320px;
 }
 
