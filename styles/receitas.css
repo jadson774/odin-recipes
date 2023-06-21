@@ -52,7 +52,7 @@ body {
 .receita {
     display: block;
     border: double 10px white;
-    width: 750px;
+    width: auto;
     height: auto;
     margin: auto;
     padding: 0 50px;
