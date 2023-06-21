@@ -15,6 +15,22 @@ body {
     text-align: center;
 }
 
+.voltar-nav a {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px 0;
+    color: rgb(138, 7, 7, 0.9);
+    text-decoration: underline;
+    font-size: 20px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.voltar-nav a:hover {
+    text-decoration: underline;
+}
+
 .foto-receita img {
     display: block;
     margin: auto;
@@ -41,6 +57,7 @@ body {
     margin: auto;
     padding: 0 50px;
     line-height: 1.5;
+    box-shadow: 0px 0px 10px 5px rgb(192, 192, 192);
 }
 
 .receita h2 {
