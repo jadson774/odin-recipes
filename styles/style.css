@@ -88,6 +88,11 @@ body {
     margin-top: 50px;
 }
 
+.creditos a {
+    text-decoration: underline;
+    color: white;
+}
+
 footer {
     display: block;
     text-align: center;
