@@ -33,7 +33,9 @@ body {
 
 .foto-receita img {
     display: block;
-    width: 200px;
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     text-align: center;
     border-radius: 15%;
