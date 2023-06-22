@@ -1,6 +1,7 @@
 # odin-recipes
-This project is part of the Web Dev Foundations course, in the curriculum prepared by The Odin Project. 
-The goal is to create a main page that will have links to other pages containing cooking recipes. 
-For this project, I will apply knowledge in HTML5 and CSS3.
+Esse foi um projeto chamado Recipes (Receitas) que faz parte do curso de Desenvolvimento Web do The Odin Project.
+O objetivo é criar um website de receitas, utilizando conhecimentos em HTML, CSS e Git para controle do histórico de alterações de arquivos.
+
+Usei como inspiração a Bahia e a sua culinária.
 
 Visit the page of my project at https://jadson774.github.io/odin-recipes/ 
